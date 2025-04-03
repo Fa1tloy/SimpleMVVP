@@ -76,5 +76,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleMVPPP\MyLib.csproj">
+      <Project>{ce1e1b33-64fa-447d-918a-1123ed29467f}</Project>
+      <Name>MyLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

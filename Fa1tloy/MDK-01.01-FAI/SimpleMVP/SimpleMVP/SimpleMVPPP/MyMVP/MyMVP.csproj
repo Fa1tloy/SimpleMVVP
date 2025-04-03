@@ -76,5 +76,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SimpleMVPPP\MyLib.csproj">
+      <Project>{ce1e1b33-64fa-447d-918a-1123ed29467f}</Project>
+      <Name>MyLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserCard\UserCard.csproj">
+      <Project>{eafc34f4-48fd-4606-a32f-b28ef313afa5}</Project>
+      <Name>UserCard</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
