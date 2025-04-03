@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace SimpleMVPPP.Models
 {
-    internal interface IUserModel
+   public  interface IUserModel
     {
+        void LoadInfoUsers();
+        List<User> ReturnUsers();
+        List<User> GetUsers();
+        void FiltrUserData(string NameFiltr, string input);
+        void ChangeUser(User u);
+        void DeleteUser(int del);
+
+        event Action SuccessLoadedInfoUsers;
     }
 }
