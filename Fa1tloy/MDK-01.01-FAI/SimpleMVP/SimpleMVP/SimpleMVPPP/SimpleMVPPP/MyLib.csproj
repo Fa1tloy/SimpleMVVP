@@ -42,13 +42,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\MemoryUsersModel.cs" />
+    <Compile Include="Presenters\UserPresenter.cs" />
     <Compile Include="User.cs" />
     <Compile Include="Models\IUserModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\IUserCard.cs" />
+    <Compile Include="Views\IUserView.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Presenters\" />
-    <Folder Include="Views\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
